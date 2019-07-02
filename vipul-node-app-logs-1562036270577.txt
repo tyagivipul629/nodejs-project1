@@ -1,0 +1,53 @@
+2019-07-02T02:48:00.801476+00:00 heroku[web.1]: Starting process with command `node server.js`
+2019-07-02T02:48:02.654006+00:00 app[web.1]: Tue, 02 Jul 2019 02:48:02 GMT body-parser deprecated undefined extended: provide extended option at server.js:9:17
+2019-07-02T02:48:02.721507+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-07-02T02:48:02.721512+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-07-02T02:48:02.721514+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-07-02T02:48:02.762964+00:00 app[web.1]: connected as id:undefined
+2019-07-02T02:48:03.256911+00:00 heroku[web.1]: State changed from starting to up
+2019-07-02T02:48:29.506808+00:00 heroku[router]: at=info method=GET path="/" host=vipul-node-app.herokuapp.com request_id=5f58b432-0425-4f4b-93ff-e5247727b6dd fwd="27.63.136.226" dyno=web.1 connect=1ms service=22ms status=200 bytes=4570 protocol=https
+2019-07-02T02:48:29.493575+00:00 app[web.1]: Home page served!!
+2019-07-02T02:48:30.005223+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=vipul-node-app.herokuapp.com request_id=b8e50138-d283-4b05-a0a3-c6f44c284ec7 fwd="27.63.136.226" dyno=web.1 connect=1ms service=6ms status=404 bytes=394 protocol=https
+2019-07-02T02:49:01.969035+00:00 app[web.1]: events.js:183
+2019-07-02T02:49:01.969076+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2019-07-02T02:49:01.969079+00:00 app[web.1]:       ^
+2019-07-02T02:49:01.969081+00:00 app[web.1]: 
+2019-07-02T02:49:01.969083+00:00 app[web.1]: Error: Connection lost: The server closed the connection.
+2019-07-02T02:49:01.969085+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T02:49:01.969087+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T02:49:01.969089+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T02:49:01.969090+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T02:49:01.969092+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T02:49:01.969093+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T02:49:01.969095+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T02:49:01.969096+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T02:49:02.061377+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T02:49:02.036778+00:00 heroku[web.1]: Process exited with status 1
+2019-07-02T02:49:31.689429+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/home" host=vipul-node-app.herokuapp.com request_id=5f5d12f1-f5a9-468c-b157-4695ca79fc96 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https
+2019-07-02T02:49:58.544351+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=vipul-node-app.herokuapp.com request_id=c1d07a88-2c38-4596-b24b-cfc2c6a00fe3 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https
+2019-07-02T02:50:22.632603+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/home" host=vipul-node-app.herokuapp.com request_id=0071b02a-0c4d-437f-9c28-1d42cf4c0780 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https
+2019-07-02T02:51:36.158412+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/home" host=vipul-node-app.herokuapp.com request_id=0d466c0f-9f64-4f84-9e24-2902d8a9f612 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https
+2019-07-02T02:55:37.048360+00:00 heroku[web.1]: State changed from crashed to starting
+2019-07-02T02:55:38.765509+00:00 heroku[web.1]: Starting process with command `node server.js`
+2019-07-02T02:55:41.029937+00:00 app[web.1]: Tue, 02 Jul 2019 02:55:41 GMT body-parser deprecated undefined extended: provide extended option at server.js:9:17
+2019-07-02T02:55:41.114365+00:00 app[web.1]: Warning: connect.session() MemoryStore is not
+2019-07-02T02:55:41.114370+00:00 app[web.1]: designed for a production environment, as it will leak
+2019-07-02T02:55:41.114374+00:00 app[web.1]: memory, and will not scale past a single process.
+2019-07-02T02:55:41.163211+00:00 app[web.1]: connected as id:undefined
+2019-07-02T02:55:42.586191+00:00 heroku[web.1]: State changed from starting to up
+2019-07-02T02:56:40.377756+00:00 app[web.1]: events.js:183
+2019-07-02T02:56:40.377807+00:00 app[web.1]:       throw er; // Unhandled 'error' event
+2019-07-02T02:56:40.377810+00:00 app[web.1]:       ^
+2019-07-02T02:56:40.377812+00:00 app[web.1]: 
+2019-07-02T02:56:40.377815+00:00 app[web.1]: Error: Connection lost: The server closed the connection.
+2019-07-02T02:56:40.377819+00:00 app[web.1]:     at Protocol.end (/app/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+2019-07-02T02:56:40.377821+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:97:28)
+2019-07-02T02:56:40.377823+00:00 app[web.1]:     at Socket.<anonymous> (/app/node_modules/mysql/lib/Connection.js:525:10)
+2019-07-02T02:56:40.377825+00:00 app[web.1]:     at emitNone (events.js:111:20)
+2019-07-02T02:56:40.377827+00:00 app[web.1]:     at Socket.emit (events.js:208:7)
+2019-07-02T02:56:40.377829+00:00 app[web.1]:     at endReadableNT (_stream_readable.js:1064:12)
+2019-07-02T02:56:40.377831+00:00 app[web.1]:     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+2019-07-02T02:56:40.377833+00:00 app[web.1]:     at process._tickCallback (internal/process/next_tick.js:180:9)
+2019-07-02T02:56:40.469946+00:00 heroku[web.1]: State changed from up to crashed
+2019-07-02T02:56:40.455834+00:00 heroku[web.1]: Process exited with status 1
+2019-07-02T02:57:18.829924+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=vipul-node-app.herokuapp.com request_id=18f43520-ceb6-4ba2-b1ab-76d3e9f18156 fwd="27.63.136.226" dyno= connect= service= status=503 bytes= protocol=https

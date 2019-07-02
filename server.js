@@ -10,10 +10,10 @@ app.use(express.urlencoded());
 app.use(express.static(__dirname+'/public'));
 app.set('view engine','ejs');
 var connection=mysql.createConnection({
-	host: 'localhost',
-	user: 'root',
-	password: 'vipul1234',
-	database: 'employee'
+	host: 'us-cdbr-iron-east-02.cleardb.net',
+	user: 'b09299f851fd0e',
+	password: 'cdfef872',
+	database: 'heroku_53a42375c95469f'
 });
 connection.connect((function(err){
 	if(err){
@@ -46,7 +46,7 @@ app.post('/auth',function(req, res){
 			{
 				req.session.loggedin=true;
 				req.session.username=usernm;
-				obj={'status':'success','message':'http://localhost:3000/home'};
+				obj={'status':'success','message':'https://vipul-node-app.herokuapp.com/home'};
 			}
 			else{console.log("hello");
 			obj={'status':'error','message':'Incorrect Username and/or Password'};
